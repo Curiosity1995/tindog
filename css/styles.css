@@ -1,0 +1,252 @@
+/* GENERAL STYLES */
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+
+
+/* NAV STYLES */
+#title nav.navbar {
+  padding: 0 0 4.5rem;
+}
+
+nav.navbar-light ul.navbar-nav a.nav-link {
+  color: #fff;
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+nav.navbar-light ul.navbar-nav a.nav-link:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+nav.navbar a.navbar-brand {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+nav.navbar a.navbar-brand:hover {
+  font-weight: bold;
+  color: #fff;
+}
+
+div.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* 1ST SECTION STYLES */
+#title {
+  background: #ff4c68;
+}
+
+#title h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+#title button {
+  cursor: pointer;
+  margin: 5% 3% 5% 0;
+}
+
+#title img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+
+/* FEATURES SECTION STYLES */
+#features {
+  background: #fff;
+  position: relative;
+}
+
+#features div.feature-box {
+  padding: 10% 0;
+}
+
+#features div.feature-box {
+  text-align: center;
+}
+
+#features div h3 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#features div p {
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#features div i {
+  color: #ef8172;
+  font-size: 3.5rem;
+  padding-bottom: 15px;
+}
+
+#features div i:hover {
+  color: #ff4c68;
+}
+
+
+/* TESTIMONIALS SECTION STYLES */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background: #ff4c68;
+  color: #fff;
+}
+
+#testimonials h2 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+#testimonials img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+
+
+/* CAROUSEL STYLES */
+div.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+/* PRICING SECTION STYLES */
+#pricing {
+  padding: 5%;
+  text-align: center;
+}
+
+#pricing .pricing-section {
+  padding: 3% 2%;
+}
+
+
+/* CTA SECTION STYLES */
+#cta {
+  background: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#cta h3 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+#cta button {
+  cursor: pointer;
+  margin: 5% 3% 5% 0;
+}
+
+
+/* FOOTER STYLES */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer i {
+  margin: 15px 10px;
+  color: #000;
+}
+
+#footer p {
+  color: #B0B0B0;
+}
+
+/* MEDIA QURIES */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  #title img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title h1 {
+    font-size: 2.5rem;
+  }
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)  {
+    #title nav.navbar-light ul.navbar-nav a.nav-link {
+    font-size: 2.5rem;
+  }
+
+  #title h1 {
+    font-size: 2.5rem;
+  }
+
+  #title button {
+    display: inline;
+    padding: 12px 14px;
+    font-size: 200%;
+    line-height: 1;
+  }
+
+  #testimonials h2 {
+    font-size: 1.5rem;
+  }
+
+  #testimonials em {
+    font-size: 1rem;
+  }
+
+  #testimonials img {
+    width: 15%;
+  }
+
+  #cta h3 {
+    font-size: 2.5rem;
+  }
+
+  #cta button.btn-lg {
+    display: inline;
+    padding: 12px 14px;
+    font-size: 200%;
+    line-height: 1;
+  }
+
+  #footer a {
+    font-size: 30px;
+  }
+
+}
